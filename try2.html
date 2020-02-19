@@ -1,3 +1,8 @@
+
+<div id="piechart"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
 <script type="text/javascript">
 // Load google charts
 google.charts.load('current', {'packages':['corechart']});
@@ -8,9 +13,8 @@ function drawChart() {
   var data = google.visualization.arrayToDataTable([
   ['Task', 'Hours per Day'],
   ['Work', 8],
-  ['Friends', 2],
   ['Eat', 2],
-  ['TV', 2],
+  ['TV', 4],
   ['Gym', 2],
   ['Sleep', 8]
 ]);
